@@ -5,5 +5,5 @@ export const Information = [
 
 ]
 export const exams=[
-    {id:1,name:'23-11-2023 - 10.30 AM - Dr.Vasool Raja MBBS,MD'}
+    {id:1,name:'27-11-2023 - 11.30 AM - Dr.Sathish Kumar MBBS,MD.Ortho'}
 ]

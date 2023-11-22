@@ -7,7 +7,7 @@ const ExamList = () => {
 
   return (
     <>
-        <div style={{ marginLeft: '100px', marginRight: '100px', border: '5px solid #ccc', padding: '20px' ,borderRadius:'10px',marginTop:'100px'}}>
+        <div style={{ marginLeft: '100px', marginRight: '100px', border: '5px solid #4FB06D', padding: '20px' ,borderRadius:'10px',marginTop:'100px'}}>
         <p style={{fontSize:'20px'}}><strong>Welcome to the Appointments section.</strong> Here, you can view your upcoming appointments.
         If you have booked an appointment but haven't seen any in this section, Please Proceed to "Book an Appointment"
         section to verify your login status.</p>

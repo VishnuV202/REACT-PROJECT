@@ -42,10 +42,10 @@ const SidebarHome = ({ isOpen, toggleSidebar }) => {
     <Drawer variant="temporary" anchor="left" open={isOpen} onClose={toggleSidebar}>
       <div style={sidebarStyle}> 
           <div >
-            <PersonIcon style={{height:'70px',width:'70px',border:'2px solid ',backgroundColor:'#EDE8D5',borderRadius:'25%',marginLeft:'90px'}}></PersonIcon></div>
+            <PersonIcon style={{height:'70px',width:'70px',border:'2px solid ',backgroundColor:'#EBB8DD',borderRadius:'25%',marginLeft:'90px'}}></PersonIcon></div>
         <List>
           <ListItem button onClick={goInfo} style={listItemStyle}>
-            <ListItemText primary="Book an Appointment" />
+            <ListItemText primary="Book Now " />
           </ListItem>
           
           <ListItem button  onClick={goexams} style={listItemStyle}>

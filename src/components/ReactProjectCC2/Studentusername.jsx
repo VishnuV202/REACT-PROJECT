@@ -78,7 +78,7 @@ const LoginForm = () => {
       {isLoggedIn ? (
         <div style={{ padding: '20px', border: '1px solid #ccc', borderRadius: '10px', marginLeft: '100px', marginTop: '100px',marginRight: '150px'}}>
           <Typography variant="h5" gutterBottom>
-            Login to Continue
+            User Details
           </Typography>
 
           <Grid container spacing={2}>

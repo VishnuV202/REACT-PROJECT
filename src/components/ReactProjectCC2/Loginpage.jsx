@@ -21,21 +21,21 @@ const Loginpage = () => {
     <>
       <form onSubmit={handleSubmit}>
         <div className='containerlogin'>
-        <p style={{fontSize:'20px',fontWeight:'bold',fontFamily:"Calibri",textAlign:'center'}}>LOGIN</p>
+        <p style={{fontSize:'20px',fontWeight:'bold',fontFamily:"Bahnschrift",textAlign:'center'}}>LOGIN</p>
           <div>
             <label>Email</label>
-            <input type='email' onChange={(event) => { setUsername(event.target.value) }} required />
+            <input type='email' onChange={(event) => { setUsername(event.target.value) }} required style={{width:'280px'}} />
           </div>
           <div>
             <label>Password</label>
-            <input type='password' required />
+            <input type='password' style={{width:'280px'}}  required />
           </div>
           <div>
-            <Button variant="contained" type='submit'>Login</Button>
+            <Button variant="contained" type='button' style={{width:'280px'}} onClick={handleSubmit}>Login</Button>
           </div>
           <div>
-            Don't Have an Account?
-            <Button variant="outlined" style={{ marginLeft: '5px' }} onClick={onHandleRegister}>Register</Button>
+            Don't have an account ?  
+            <Button variant="outlined" style={{ marginLeft: '5px',width:'105px'}} onClick={onHandleRegister}>Register</Button>
           </div>
         </div>
       </form>

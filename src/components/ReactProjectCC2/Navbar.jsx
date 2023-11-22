@@ -20,8 +20,8 @@ const Navbar = ({ toggleSidebar }) => {
 
   return (
     <>
-    <div style={{width:'100%'}}>
-    <AppBar style={{width:'100%',background:'#24788F',margin:'auto'}}position="fixed">
+    <div style={{width:'100%'}  }>
+    <AppBar style={{width:'100%',background:'#4FB06D',margin:'auto'}}position="fixed">
       <Toolbar>
         <IconButton
           color="inherit"
@@ -29,14 +29,14 @@ const Navbar = ({ toggleSidebar }) => {
           onClick={toggleSidebar}
           edge="start"
         >
-          <MenuIcon />
+          <MenuIcon />  
         </IconButton>
-        <img src={Logo} alt="Logo" width="50px" height="50px" style={{borderRadius:"25px"}}/>
-        <Typography variant="h4" noWrap style={{fontFamily:"Helvetica",paddingLeft:"10px"}}>Nalam Hospitals
+        <img src={Logo} alt="Logo" width="50px" height="50px" style={{borderRadius:"15px"}}/>
+        <Typography variant="h4" noWrap style={{fontFamily:"Bahnschrift",paddingLeft:"10px"}}> V4U Health Care
         </Typography> 
         <Button variant="standard" onClick={onchange} style={{color:'white',marginLeft:'750px'}}>Home</Button>
         <Button variant="standard" onClick={onchoose} style={{color:'white'}}>Book Now</Button>
-        <Button variant="standard" onClick={signout} style={{color:'white'}}>Login</Button>
+        <Button variant="standard" onClick={signout} style={{color:'white'}}>Admin</Button>
         <Button variant="standard" style={{color:'white'}}>Contact</Button>
       </Toolbar>
     </AppBar>

@@ -8,7 +8,7 @@ const PlacementDetailsPage = () => {
         width: "80%",
         marginTop: "100px",
         marginLeft: "100px",
-        border: "5px solid black",
+        border: "5px solid #4FB06D",
         borderRadius: "25px",
         padding: "20px",
         marginBottom: "10px",
