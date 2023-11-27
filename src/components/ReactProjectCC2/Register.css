@@ -1,9 +1,12 @@
-
+@import url('http://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800');
+@import url('http://fonts.googleapis.com/css?family=Poppins:thin,extra-light,light,100,200,300,400,500,600,700,800');
 .container{
-  margin: 150px 550px;
-  width: 400px;
-  height:400px;
-  background-color:rgb(216, 216, 230);
+  font-family: Poppins;
+  margin: 150px 570px;
+  overflow:auto;
+  width: 300px;
+  height:450px;
+  background-color:rgb(255, 255, 255);
   padding: 20px;
   border-radius: 10px;
   border: 0px solid grey;

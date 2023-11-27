@@ -1,4 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+    overflow:auto;
+}
   a {
     color: #fff;
     text-decoration: none;
@@ -9,7 +13,7 @@
   
   
   .footer {
-      background-color: #4FB06D;
+      background:linear-gradient(to right,#E16E96,#9D2E7D);
       color: #fff;
   }
   .footer-wave-svg {
@@ -86,7 +90,7 @@
       margin-right: 0;
   }
   .footer-call-to-action-button {
-      background-color: #131617;
+      background-color: rgba(38, 59, 87, 0.849);;
       border-radius: 21px;
       color: #fff;
       display: inline-block;
@@ -148,7 +152,7 @@
   }
   
   .footer-social-amoeba-path {
-      fill: rgb(154, 103, 2);
+      fill: rgba(38, 59, 87, 0.849);
   }
   
   .footer-social-link.linkedin {
@@ -209,7 +213,7 @@
   }
   
   .footer-copyright {
-      background-color: #9a6202;
+      background-color: #36324a;
       color: #fff;
       padding: 15px 30px;
     text-align: center;
