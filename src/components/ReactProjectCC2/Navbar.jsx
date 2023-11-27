@@ -49,7 +49,7 @@ const Navbar = ({ toggleSidebar }) => {
             <Typography
               variant="h4"
               noWrap
-              style={{ fontFamily: "Poppins",fontWeight:'bold', paddingLeft: "10px",paddingBottom:'3px'}}
+              style={{ fontFamily: "Poppins", paddingLeft: "10px",paddingBottom:'3px'}}
             >
               Global Hospitals
             </Typography>
