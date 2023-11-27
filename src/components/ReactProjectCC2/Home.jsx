@@ -251,7 +251,7 @@ const Dashboard = () => {
                 <p className="footer-copyright-text">
                   <a className="footer-copyright-link" href="#sss" target="_self">
                     {" "}
-                    <strong>©2020. | All rights reserved.</strong>{" "}
+                    <strong>©2020. | Global Hospitals |All rights reserved.</strong>{" "}
                   </a>
                 </p>
               </div>

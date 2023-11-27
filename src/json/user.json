@@ -26,6 +26,15 @@
       "gender": "Male",
       "confirmPassword": "Sunil",
       "id": 3
+    },
+    {
+      "username": "Vinayak",
+      "password": "12345",
+      "email": "V@gmail.com",
+      "dob": "2023-11-22",
+      "gender": "Male",
+      "confirmPassword": "12345",
+      "id": 4
     }
   ]
 }

@@ -327,7 +327,7 @@ const Loginpage = () => {
                 style={{ width: "280px", borderRadius: "25px" }}
                 onClick={handleSubmit}
               >
-                Login
+                SIGN IN
               </Button>
             </div>
             <div>
@@ -337,7 +337,7 @@ const Loginpage = () => {
                 style={{ marginLeft: "5px", width: "280px", borderRadius: "25px" }}
                 onClick={onHandleRegister}
               >
-                Register
+                SIGN UP
               </Button>
             </div>
           </div>

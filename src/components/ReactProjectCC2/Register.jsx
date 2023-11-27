@@ -57,7 +57,7 @@ const Register = () => {
             <input type='password' required style={{ width: '300px' }} onChange={(event) => handleInputChange(event, 'confirmPassword')} />
           </div>
           <div>
-            <Button variant="outlined" type='submit' style={{ width: '280px' }}>Register</Button>
+            <Button variant="outlined" type='submit' style={{ width: '280px' }}>SIGN UP</Button>
           </div>
           <div>
             <p style={{ textAlign: 'center' }}>Already have an account?</p>
